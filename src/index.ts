@@ -7,7 +7,6 @@ import { delay, switchMap, take, tap } from "rxjs/operators";
 
 initBody("rx-js switchMap");
 add.button("Trigger", "btn");
-// streams
 
 const button = document.getElementById("btn");
 
